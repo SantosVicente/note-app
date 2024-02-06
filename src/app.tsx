@@ -17,14 +17,15 @@ export function App() {
 
       <div className="grid grid-cols-3 gap-6 auto-rows-[240px]">
         <NoteCard
+          date={new Date()}
           isFirt
           title="Adicionar nota"
           content="Grave uma nota em áudio que será convertida para texto
-            automaticamente."
+          automaticamente."
         />
 
         <NoteCard
-          title="Há 2 dias"
+          date={new Date()}
           content="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto
           necessitatibus dolores iusto adipisci labore molestias qui iste nemo
           natus laudantium, laborum enim explicabo esse culpa ut voluptas at
@@ -35,7 +36,7 @@ export function App() {
         />
 
         <NoteCard
-          title="Há 4 dias"
+          date={new Date()}
           content="Lorem ipsum dolor sit amet consectetur, adipisicing elit.
           Recusandae, esse. Distinctio error odit dolor hic voluptate porro
           minus unde, iste commodi aperiam exercitationem rem quidem nesciunt
@@ -43,7 +44,7 @@ export function App() {
         />
 
         <NoteCard
-          title="Há 4 dias"
+          date={new Date()}
           content="Lorem ipsum dolor sit amet consectetur, adipisicing elit.
           Recusandae, esse. Distinctio error odit dolor hic voluptate porro
           minus unde, iste commodi aperiam exercitationem rem quidem nesciunt
